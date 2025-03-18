@@ -1,0 +1,50 @@
+The changes listed below were added gradually after several tests and validations / Los cambios listados a continuación fueron añadidos de manera gradual después de varios tests y validaciones:
+
+(18/03/2025)
+Device:
+Upload blobs to OS2.0.5.0.VMNMIXM
+Add simple FEAS support
+Drop useless rootdir scripts
+Add missing Sepolicy
+Change modem profile from u-stable to v-stable
+mondrian: Move stock qcril sql migrations to vendor again
+mondrian: qcril-database: Use common tool to generate db
+mondrian: Add migration to turn off persist.vendor.radio.poweron_opt
+Unmount /firmware after fastbootd starts
+
+(05/03/2025)
+Device:
+Add MiCharge
+Implement torch light control
+Add feature flag for IPSEC_TUNNEL_MIGRATION
+move to aidl bootctrl hal
+Build DSPVolumeSynchronizer
+Added Parts
+Added Dolby
+Drop unnecessary SKUs and media config
+Build QtiTelephonyCompat
+Turn off persist.vendor.radio.poweron_opt
+sepolicy: Remove duplicate snxxx AIDL rules
+Update blobs and firmware from V816.0.14.0.UMNMIXM
+Optimize native executables for Cortex-A510
+
+Kernel:
+Merge KERNEL.PLATFORM.1.0.r1-18500-kernel.0
+Merge ASB-2025-02-05_12-5.10
+and a few improvements
+
+Kernel Modules:
+Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' wlan/qcacld-3.0
+Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' wlan/fw-api
+Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' eva-kernel
+Merge tag 'DISPLAY.LA.2.0.r1-13400-WAIPIO.0' display-drivers
+Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' dataipa
+Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' cvp-kernel
+Merge tag 'CAMERA.LA.2.0.r1-12600-WAIPIO.0' camera-kernel
+Merge tag 'LA.VENDOR.1.0.r1-27000-WAIPIO.QSSI15.0' audio-kernel-ar
+
+hardware/xiaomi
+dolby: Make sure to persist value after toggling QS tile
+dolby: Make bass enhancer available on speakers as well
+dolby: Add custom profile
+dolby: Add translation values-es
