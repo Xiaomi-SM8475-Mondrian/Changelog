@@ -7,10 +7,11 @@ Add simple FEAS support
 Drop useless rootdir scripts
 Add missing Sepolicy
 Change modem profile from u-stable to v-stable
-mondrian: Move stock qcril sql migrations to vendor again
-mondrian: qcril-database: Use common tool to generate db
-mondrian: Add migration to turn off persist.vendor.radio.poweron_opt
+Move stock qcril sql migrations to vendor again
+qcril-database: Use common tool to generate db
+Add migration to turn off persist.vendor.radio.poweron_opt
 Unmount /firmware after fastbootd starts
+Import missing media configs
 
 (05/03/2025)
 Device:
